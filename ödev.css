@@ -1,0 +1,185 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Temel Stil */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('RESİM/küp.jpg');
+    background-size: 100%;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5); /* Arka plan rengi için saydamlık ekledik */
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgba(0, 0, 0, 0.86);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #555;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+    align-items: flex-start; /* İçeriği yukarı doğru hizalar */
+    margin-left: 1000px;
+    
+    
+    
+}
+
+article {
+    background: rgba(255, 255, 255, 0.8); /* İçerik alanının arka planını saydam beyaz yapıyoruz */
+    padding: 1rem;
+    margin-bottom: 1rem;
+    max-width: 400px; /* İçerik alanının maksimum genişliğini belirliyoruz */
+    text-align: right; /* Yazıları sağa hizalıyoruz */
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.86); /* Arka plan rengi için saydamlık ekledik */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.about-me {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.about-me img {
+    width: 140px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: 20px
+}
+
+.about-me h2 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+.about-me-info {
+    text-align: left; /* İçerik bilgilerini sola hizalar */
+    color: #eff5f6a8;
+}
+.about-me-info p {
+    margin-bottom: 5px; /* Diğer bilgiler arasına boşluk ekler */
+    margin-right: 1000px; /* Bilgileri biraz sola kaydırır */
+}
+
+/* Diğer stiller burada */
+
+aside {
+    flex: 1; /* İçeriği sağa yaslamak için */
+    max-width: 300px; /* Maksimum genişlik ayarı */
+    margin-left: 1000px; /* Sağdan biraz boşluk bırakmak için */
+    
+}
+.picture img{
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    margin-bottom: 100px;
+    margin-left: 100px
+
+}
+.yazi{
+    
+    position: relative;
+    color: white;
+    bottom: 400px;
+    background-color: #5555557c;
+    width: 350px;
+    height: 50px;
+    margin-left: 900px; /* Yukarı taşınacak */
+    align-items: center;
+}
+.tanim{
+    background-color:rgba(255, 255, 255, 0.8);
+    position: relative;
+    color: rgba(0, 0, 0, 0.86);
+    bottom:100px;
+    width: 350px;
+    height: 200px;
+    margin-left: 600px;
+}
+
+.kod img{
+    width: 500px;
+    height: 600px;
+    margin-left: 900px;
+}
+.kod-yazı{
+    color:white;
+  position: relative;
+  background-color: #5555557c;
+  align-items: center;
+  margin-left: 300px;
+  bottom: 300px;
+  width: 350px;
+  
+}
+
+
+
+
+
+
